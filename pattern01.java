@@ -199,15 +199,38 @@
  5 10 15 20 25
  */
  
- public class pattern01	{
+//  public class pattern01	{
 	
+// 	public static void main(String args [])	{
+		
+// 		for (int I =1; I <=5; I++)	{
+			
+// 			for(int j =1; j <=5; j++)	{
+		
+// 					System.out.print(I * j + " ");
+// 			}
+// 				System.out.println();
+// 		}
+// 	}
+// }
+
+/*
+ pattern 10:
+ 1 1 2 1 3 1
+ 1 2 2 2 2 3
+ 1 3 2 3 3 3
+ 1 4 2 4 3 4
+ 1 5 2 5 3 5
+ */
+ public class pattern01	{
+
 	public static void main(String args [])	{
 		
-		for (int I =1; I <=5; I++)	{
+		for (int i = 1; i <=5; i++)	{
 			
-			for(int j =1; j <=5; j++)	{
+			for (int j = 1; j <=3; j++)	{
 		
-					System.out.print(I * j + " ");
+					System.out.print(j + " " + i + " ");
 			}
 				System.out.println();
 		}
