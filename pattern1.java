@@ -7,20 +7,20 @@
 	* * * * *
 
  */
-public class pattern1	{
+// public class pattern1	{
 
-		public static void main (String args [])	{
+// 		public static void main (String args [])	{
 	
-			for (int i =1; i <=5;i++)	{
+// 			for (int i =1; i <=5;i++)	{
 		
-				for (int j = 1; j <= 5; j++)	{
+// 				for (int j = 1; j <= 5; j++)	{
 				
-					System.out.print("* ");
-			}
-				System.out.println();
-		}
-	}
-}
+// 					System.out.print("* ");
+// 			}
+// 				System.out.println();
+// 		}
+// 	}
+// }
 /*
  pattern 2:
 	1 1 1 1 1
@@ -29,20 +29,20 @@ public class pattern1	{
 	4 4 4 4 4
 	5 5 5 5 5
  */
-public class pattern1{
+// public class pattern1{
 	
-		public static void main (String args [])	{
+// 		public static void main (String args [])	{
 		
-			for(int i = 1; i <=5; i++)	{
+// 			for(int i = 1; i <=5; i++)	{
 			
-				for (int j = 1;j <= 5; j++)	{
+// 				for (int j = 1;j <= 5; j++)	{
 		
-					System.out.print(i +" ");
-			}
-				System.out.println();
-		}
-	}
-}
+// 					System.out.print(i +" ");
+// 			}
+// 				System.out.println();
+// 		}
+// 	}
+// }
 /*
  pattern 3:
 	1 2 3 4 5
@@ -51,3 +51,17 @@ public class pattern1{
 	1 2 3 4 5		
 	1 2 3 4 5
  */
+public  class pattern1 	{
+	
+	public static void main (String args [] ){
+	
+		for(int i  = 1 ; i <=5 ; i++)	{
+	
+			for (int j = 1;  j <= 5; j++)	{
+ 
+				System.out.print(j + " ");
+			}
+			System.out.println();
+		}
+	}
+}
