@@ -222,17 +222,17 @@
  1 4 2 4 3 4
  1 5 2 5 3 5
  */
- public class pattern01	{
+//  public class pattern01	{
 
-	public static void main(String args [])	{
+// 	public static void main(String args [])	{
 		
-		for (int i = 1; i <=5; i++)	{
+// 		for (int i = 1; i <=5; i++)	{
 			
-			for (int j = 1; j <=3; j++)	{
+// 			for (int j = 1; j <=3; j++)	{
 		
-					System.out.print(j + " " + i + " ");
-			}
-				System.out.println();
-		}
-	}
-}
+// 					System.out.print(j + " " + i + " ");
+// 			}
+// 				System.out.println();
+// 		}
+// 	}
+// }
