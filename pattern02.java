@@ -31,21 +31,56 @@
     5 10 15 20 25
  */
 
- public class pattern02 {
+//  public class pattern02 {
 		
-	public static void main (String args [])	{
+// 	public static void main (String args [])	{
 		
-		int count;
-		for(int i =1; i <= 5; i++)	{
-            count = i;
+// 		int count;
+// 		for(int i =1; i <= 5; i++)	{
+//             count = i;
 			
-			for(int j =1; j <= 5; j++)	{
+// 			for(int j =1; j <= 5; j++)	{
 				
-				System.out.print(count + " ");
-					count +=5; 
-			}
-				System.out.println();
-		}
-	}
-}
+// 				System.out.print(count + " ");
+// 					count +=5; 
+// 			}
+// 				System.out.println();
+// 		}
+// 	}
+// }
 
+/*
+    pattern 13:
+    1 10 11 20 21
+    2 9 12 19 22
+    3 8 13 18 23
+    4 7 14 17 24
+    5 6 15 16 25
+ */
+    
+  public class pattern02 {
+        
+        public static void main (String args []){
+            
+            int count1, count2;
+                for(int i =1; i <=5; i++) {
+                    
+                    count1 = i;
+                    count2 = 5 - i + 1;
+                    for(int j = 1; j <= 5; j++) {
+                    
+                        if(j % 2 ==1) {
+                        
+                            System.out.print(count1 + " ");
+                        } else {
+                        
+                        System.out.print(count2   + " ");                
+                        }
+                    count1 +=5;
+                    count2 +=5;
+            }
+            System.out.println();
+
+        }
+    }
+}
