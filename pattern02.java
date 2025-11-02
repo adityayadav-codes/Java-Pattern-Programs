@@ -183,15 +183,39 @@
     9 11 13 15 17
  */
 
- public  class pattern02 {
+//  public  class pattern02 {
 	
-	public static void main (String args [ ])	{
+// 	public static void main (String args [ ])	{
 		
-		for(int i = 1; i <= 5; i++)		{
+// 		for(int i = 1; i <= 5; i++)		{
 			
-			for(int j = 1; j<= 5; j++)	{
+// 			for(int j = 1; j<= 5; j++)	{
 				
-                System.out.print((2*(i+j))-3 + " ");
+//                 System.out.print((2*(i+j))-3 + " ");
+// 			}
+// 				System.out.println();
+// 		}
+// 	}
+// }
+
+/*
+    pattern 18:
+    0 1 0 1 0
+    1 0 1 0 1
+    0 1 0 1 0
+    1 0 1 0 1 
+    0 1 0 1 0
+ */
+
+ public class pattern02	{
+		
+	public static void main (String args [  ])	{
+		
+		for (int i =1; i <= 5; i++)	{
+			
+			for (int j =1; j <= 5; j++){
+			
+				System.out.print(((i+j)%2) + " " );
 			}
 				System.out.println();
 		}
