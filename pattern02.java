@@ -119,32 +119,58 @@
    2 9 12 19 22
    1 10 11 20 21 
  */
-public class pattern02 {
+// public class pattern02 {
 	
-	public static void main (String args [])	{
+// 	public static void main (String args [])	{
 		
-		int count1;
-		int count2;
+// 		int count1;
+// 		int count2;
 			
-			for(int i =5; i >= 1; i--)	{
+// 			for(int i =5; i >= 1; i--)	{
 			
-				count1 =i;
-                count2 = 6 - i;
+// 				count1 =i;
+//                 count2 = 6 - i;
 				
-					for(int j =5; j >= 1; j--)	{
+// 					for(int j =5; j >= 1; j--)	{
 			
-						if(j % 2 == 1)	{
+// 						if(j % 2 == 1)	{
 					
-							System.out.print(count1 +" ");
-				} else {
+// 							System.out.print(count1 +" ");
+// 				} else {
 				
-							System.out.print(count2+ " ");	
-				}
+// 							System.out.print(count2+ " ");	
+// 				}
 				
-				count1 += 5;
-				count2 += 5;
-			}	
-				System.out.println();
-		}			
-	}
-}
+// 				count1 += 5;
+// 				count2 += 5;
+// 			}	
+// 				System.out.println();
+// 		}			
+// 	}
+// }
+
+/*
+    pattern 16:
+    1 2 3 4 5 
+    2 3 4 5 6
+    3 4 5 6 7
+    4 5 6 7 8
+    5 6 7 8 9 
+ */
+
+// public class pattern02 {
+
+// 	public static void main (String args [ ])	{
+		
+			
+// 		for (int i = 1 ; i <=5; i++)	{
+			
+// 			for (int j = 1; j <= 5; j++)		{
+				
+// 				System.out.print((i+j-1) + " ");
+// 			} 
+// 			System.out.println(); 
+// 		}
+// 	}
+// }
+
