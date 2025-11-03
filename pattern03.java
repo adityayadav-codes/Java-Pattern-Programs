@@ -201,18 +201,46 @@
     E D C B A
     E D C B A 
  */
-public class pattern03 {
-    public static void main(String args []){
+// public class pattern03 {
+//     public static void main(String args []){
         
-            char i;
-            char j;
-                for(i = 'E'; i >='A'; i--) {
+//             char i;
+//             char j;
+//                 for(i = 'E'; i >='A'; i--) {
 
-                    for(j = 'E'; j >='A';j--) {
+//                     for(j = 'E'; j >='A';j--) {
 
-                        System.out.print(j + " ");
-                    }
-                    System.out.println();
+//                         System.out.print(j + " ");
+//                     }
+//                     System.out.println();
+//                 }
+//     }
+// }
+ 
+/*
+    pattern 20:
+    A B C D E 
+    F G H I J 
+    K L M N O 
+    P Q R S T 
+    U V W X Y
+ */public class pattern03 {
+
+    public static void main(String[] args) {
+        
+        char ch = 'A';
+            for(int i = 1; i <= 5; i++) {
+
+                for(int j = 1; j <= 5; j++) {
+
+                    System.out.print(ch + " ");
+                        if(ch < 'Z') {
+                            ch++;
+                        } else {
+                            ch = (char)'A';
+                        }
                 }
+                System.out.println();
+            }
     }
-}
+ }
