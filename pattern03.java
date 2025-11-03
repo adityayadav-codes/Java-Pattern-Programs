@@ -30,21 +30,44 @@
     0 0 0 0 0                   
  */
 
+//  public class pattern03 {
+	
+// 	public static void main (String args [ ]) {
+		
+// 		for(int I = 0; I < 5 ; I++) {
+			
+// 			for(int j =1; j <= 5; j++) {
+		
+// 				System.out.print((I % 2) + " "); 
+
+// 				}
+// 				System.out.println();
+// 			}
+// 		}
+// 	}
+
+/*
+    pattern 23:
+    1 1 1 1 1 
+    0 0 0 0 0 
+    1 1 1 1 1 
+    0 0 0 0 0 
+    1 1 1 1 1 
+ */
+    
  public class pattern03 {
 	
-	public static void main (String args [ ]) {
-		
-		for(int I = 0; I < 5 ; I++) {
+	public static void main(String args [ ]) {
 			
-			for(int j =1; j <= 5; j++) {
-		
-				System.out.print((I % 2) + " "); 
-
-				}
-				System.out.println();
+		for(int I = 1; I <= 5; I++)	 {
+			
+			for(int j = 1; j <= 5; j++) {
+			
+				System.out.print((I% 2) + " ");
 			}
+				System.out.println();
 		}
 	}
-    
+}
 
     
