@@ -125,20 +125,46 @@
     D D D D D
     E E E E E
  */
-    public class pattern03 {
+    // public class pattern03 {
     
-        public static void main(String[] args) {
+    //     public static void main(String[] args) {
             
-            char r ; 
-            char q ;
+    //         char r ; 
+    //         char q ;
 
-                for(r= 'A'; r<= 'E'; r++) {
+    //             for(r= 'A'; r<= 'E'; r++) {
 
-                   for(q='A'; q <= 'E'; q++) {
+    //                for(q='A'; q <= 'E'; q++) {
 
-                        System.out.print(r + " ");
-                   }
-                   System.out.println();
+    //                     System.out.print(r + " ");
+    //                }
+    //                System.out.println();
+    //             }
+    //     }
+    // }
+
+/*
+    pattern 27:
+    A B C D E
+    A B C D E
+    A B C D E
+    A B C D E
+    A B C D E
+ */
+
+public class pattern03 {
+
+    public static void main(String[] args) {
+        
+        char i ;
+        char j;
+            for(i = 'A'; i <= 'E'; i++) {
+
+                for(j = 'A'; j <= 'E'; j++) {
+
+                    System.out.print(j + " ");
                 }
-        }
+                System.out.println();
+            }
     }
+}
