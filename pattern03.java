@@ -152,17 +152,41 @@
     A B C D E
  */
 
+// public class pattern03 {
+
+//     public static void main(String[] args) {
+        
+//         char i ;
+//         char j;
+//             for(i = 'A'; i <= 'E'; i++) {
+
+//                 for(j = 'A'; j <= 'E'; j++) {
+
+//                     System.out.print(j + " ");
+//                 }
+//                 System.out.println();
+//             }
+//     }
+//}
+/*
+    pattern 28:
+    E E E E E
+    D D D D D
+    C C C C C
+    B B B B B 
+    A A A A A
+ */
 public class pattern03 {
 
     public static void main(String[] args) {
         
-        char i ;
+        char i;
         char j;
-            for(i = 'A'; i <= 'E'; i++) {
+            for(i = 'E'; i >= 'A'; i--){
+                
+                for(j = 'E'; j >= 'A'; j--) {
 
-                for(j = 'A'; j <= 'E'; j++) {
-
-                    System.out.print(j + " ");
+                    System.out.print(i  + " ");
                 }
                 System.out.println();
             }
