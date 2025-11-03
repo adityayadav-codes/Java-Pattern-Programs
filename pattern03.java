@@ -176,19 +176,43 @@
     B B B B B 
     A A A A A
  */
-public class pattern03 {
+// public class pattern03 {
 
-    public static void main(String[] args) {
+//     public static void main(String[] args) {
         
-        char i;
-        char j;
-            for(i = 'E'; i >= 'A'; i--){
+//         char i;
+//         char j;
+//             for(i = 'E'; i >= 'A'; i--){
                 
-                for(j = 'E'; j >= 'A'; j--) {
+//                 for(j = 'E'; j >= 'A'; j--) {
 
-                    System.out.print(i  + " ");
+//                     System.out.print(i  + " ");
+//                 }
+//                 System.out.println();
+//             }
+//     }
+// }
+
+/*
+    pattern 29:
+    E D C B A
+    E D C B A
+    E D C B A
+    E D C B A
+    E D C B A 
+ */
+public class pattern03 {
+    public static void main(String args []){
+        
+            char i;
+            char j;
+                for(i = 'E'; i >='A'; i--) {
+
+                    for(j = 'E'; j >='A';j--) {
+
+                        System.out.print(j + " ");
+                    }
+                    System.out.println();
                 }
-                System.out.println();
-            }
     }
 }
