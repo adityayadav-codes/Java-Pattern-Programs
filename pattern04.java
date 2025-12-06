@@ -212,17 +212,17 @@
     2 4 6
     2 4 6 8
     2 4 6 8 10
- */
-public class pattern04 {
+//  */
+// public class pattern04 {
 
-    public static void main(String[] args) {
-        for(int i =1; i <= 5; i++) {
+//     public static void main(String[] args) {
+//         for(int i =1; i <= 5; i++) {
 
-            for(int j =1; j<=i;j++) {
+//             for(int j =1; j<=i;j++) {
 
-                System.out.print((j*2) + " ");
-            }
-            System.out.println();
-        }
-    }
-}
+//                 System.out.print((j*2) + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
